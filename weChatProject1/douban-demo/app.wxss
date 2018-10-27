@@ -1,0 +1,59 @@
+page {
+    font-family: "Microsoft YaHei";
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header {
+    border-bottom: 2rpx solid #ccc;
+    margin-bottom: 10rpx;
+    display: flex;
+    justify-content: center;
+}
+
+.page-header-title {
+    padding: 20rpx 40rpx;
+    color: #999;
+    font-size: 40rpx;
+}
+
+.page-item {
+    display: flex;
+    flex-direction: start;
+    padding: 20rpx 40rpx;
+    border-bottom: 2rpx solid #c0c0c0;
+}
+
+.movie-image {
+    width: 128rpx;
+    height: 128rpx;
+    margin-right: 20rpx;
+}
+
+.page-item .meta {
+    flex: 1;
+}
+
+.original_title,
+.countries,
+.genres {
+    display: block;
+    margin-bottom: 10rpx;
+}
+
+.original_title {
+    font-size: 32rpx;
+    color: #c0c0c0;
+}
+
+.countries,
+.genres {
+    font-size: 22rpx;
+}
+
+.page-item .rating {
+    font-size: 28rpx;
+    color: red;
+    font-weight: 700;
+}
