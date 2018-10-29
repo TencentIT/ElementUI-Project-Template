@@ -1,0 +1,99 @@
+/*设置页面样式*/
+
+div.main{
+	width:1200px;
+	margin:0 auto;
+}
+body{
+	font:12px simhei,Arial,Helvetica,sans-serif;
+	color:#666;
+	margin:0;
+	padding:0;
+	background:white;
+
+}
+a,div,span,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,pre{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#666;
+}
+a:hover{
+	color:#0aa1ed;
+}
+img{
+	vertical-align:bottom;
+}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lf{float:left;}
+.rf{float:right;}
+
+
+/*警告框*/
+/*alert 框显示*/
+#alertMsg {
+	display: none;
+	width: 380px;
+	border: 1px solid #ddd;
+	height: 200px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px black;
+	padding: 21px;
+	font-size: 12px;
+	position: absolute;
+	/* text-align: center; */
+	background: #fff;
+	z-index: 100000;
+	display: block;
+	position: fixed;
+	left: 480px;
+	top: 181px;
+	width: 340px;
+	height: 151px;
+}
+
+#alertMsg_info {
+	width: 265px;
+	height: 116px;
+	line-height: 1.6em;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+	padding-top: 40px;
+	padding-left: 52px;
+	background: url('../img/register/tan.png') no-repeat 12% 37%;
+	background-size: 9% auto;
+}
+
+#alertMsg_btn1, #alertMsg_btn2 {
+	display: inline-block;
+	position: relative;
+	top: -63px;
+	left: 147px;
+	padding-left: 0px;
+	font-size: 12px;
+	text-decoration: none;
+	margin-right: 10px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 2px;
+	background-color: #FE6A00;
+}
+
+#alertMsg_btn1 cite, #alertMsg_btn2 cite {
+	line-height: 21px;
+	display: inline-block;
+	padding:  5px 14px 4px 10px;
+	font-style: normal;
+	font-size: 16px;
+	position: relative;
+	left: 4px;
+	border-radius: 2px;
+}
