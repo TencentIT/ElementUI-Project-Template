@@ -1,6 +1,6 @@
-# Vue+ElementUI+axios配置模板
+# 基于Vue+ElementUI封装的一套后端通用项目开发模板
 
-> Vue+ElementUI+axios配置模板
+> 基于Vue+ElementUI封装的一套后端通用项目开发模板
 
 ## Build Setup
 
